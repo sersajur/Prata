@@ -1,9 +1,8 @@
 #include<iostream>
 
-using namespace std;
-
 int main()
 {	
+	using namespace std;
 	const double Miles_per_100km = 62.14;
 	const double Litres_per_gallon = 3.875;
 	
@@ -11,5 +10,6 @@ int main()
 	double litres_for_100km; 
 	cin >> litres_for_100km;
 	cout << "The use of petrol is ";
-	cout << Miles_per_100km*Litres_per_gallon/litres_for_100km << " miles/gallon" << endl;	
+	cout << Miles_per_100km*Litres_per_gallon/litres_for_100km << " miles/gallon" << endl;
+	return 0;	
 }

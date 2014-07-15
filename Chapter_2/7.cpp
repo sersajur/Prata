@@ -12,6 +12,7 @@ int main()
 	std::cout << "Time: ";
 	Print_time(h, m);
 	std::cout << std::endl;
+	return 0;
 }
 
 void Print_time(unsigned int h, unsigned int m)

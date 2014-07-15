@@ -1,9 +1,8 @@
 #include<iostream>
 
-using namespace std;
-
 int main()
 {
+	using namespace std;
 	const int Inches_per_foot = 12;
 	const double Meters_per_inch = 0.0254;
 	const double Pounds_per_kilogram = 2.2;
@@ -21,5 +20,6 @@ int main()
 	double growth_in_meters = inches*Meters_per_inch;
 	double weight_in_kilograms = pounds/Pounds_per_kilogram;
 	double bmi = weight_in_kilograms/growth_in_meters/growth_in_meters;
-	cout << "Your BMI = " << bmi << endl; 
+	cout << "Your BMI = " << bmi << endl;
+	return 0;
 }

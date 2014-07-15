@@ -1,9 +1,8 @@
 #include<iostream>
 
-using namespace std;
-
 int main()
 {
+	using namespace std;
 	const unsigned Seconds_per_minute = 60;
 	const unsigned Minutes_per_hour = 60;
 	const unsigned Hours_per_day = 24;
@@ -25,4 +24,5 @@ int main()
 	cout << hours << " hours, ";
 	cout << minutes << " minutes, ";
 	cout << seconds << " seconds" << endl;
+	return 0;
 }

@@ -1,9 +1,8 @@
 #include<iostream>
 
-using namespace std;
-
 int main()
 {	
+	using namespace std;
 	cout << "Enter the world's population: ";
 	unsigned long long world_population; 
 	cin >> world_population;
@@ -14,4 +13,5 @@ int main()
 	cout << "The population of the Ukraine is ";
 	cout << double(ukraine_population)/world_population*100;
 	cout << "% of the world population." << endl;
+	return 0;
 }

@@ -8,4 +8,5 @@ int main()
 	std::cout << "Enter distance in furlongs: ";
 	std::cin >> v;
 	std::cout << v << "fur = " << v*YARDS_IN_FURLONG << "yd" << std::endl;
+	return 0;
 }

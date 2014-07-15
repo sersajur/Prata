@@ -10,6 +10,7 @@ int main()
 	
 	Action();
 	Action();
+	return 0;
 }
 
 void Who()
