@@ -4,7 +4,8 @@
 
 void setgolf(golf & g, const char * name, int hc)
 {
-	strcpy(g.fullname, name);
+	strncpy(g.fullname, name, Len - 1);
+	g.fullname[Len - 1] = '\0';
 	g.handicap = hc;
 }
 int setgolf(golf & g)
@@ -12,7 +13,7 @@ int setgolf(golf & g)
 	std::cout << "Enter a full name: ";
 	char fullname[Len];
 	if (std::cin.get(fullname, Len))
-	{
+	{	
 		std::cout << "Enter a handicap: ";
 		int handicap = 0;
 		if (!(std::cin >> handicap))
